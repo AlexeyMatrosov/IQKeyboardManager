@@ -523,9 +523,9 @@ public class IQKeyboardReturnKeyHandler: NSObject, UITextFieldDelegate, UITextVi
             }
         }
         
-        if shouldReturn == true && text == "\n" {
-            shouldReturn = goToNextResponderOrResign(textView)
-        }
+//        if shouldReturn == true && text == "\n" {
+//            shouldReturn = goToNextResponderOrResign(textView)
+//        }
         
         return shouldReturn
     }
